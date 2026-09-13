@@ -1,0 +1,22 @@
+# This registry contains documentation only.
+# Keep all data, reports, local notes and credentials out of version control.
+.env
+.env.*
+*.env
+data/
+datasets/
+reports/
+private/
+*.pdf
+*.docx
+*.pptx
+*.pbix
+*.pbit
+*.unitypackage
+*.sql
+*.csv
+*.xlsx
+*.joblib
+*.pkl
+*.pt
+*.pth
