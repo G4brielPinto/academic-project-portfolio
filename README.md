@@ -24,17 +24,17 @@ local configuration.
 | Pacman-Inspired Game AI | [repository](https://github.com/G4brielPinto/pacman-ai-case-study) | Safe high-level case study only | Public, Unity package excluded |
 | Googol Distributed Search | [repository](https://github.com/G4brielPinto/googol-distributed-search) | Sanitised Java source and configuration template | Public, source-only edition |
 
-## Prepared for public GitHub creation
+## Additional public GitHub repositories
 
 | Project | Material included | Status |
 | --- | --- | --- |
-| Loan Processing Platform | Sanitised Django, React, AWS Lambda, and Step Functions source | Public source edition; data, credentials, database, and generated files excluded |
-| Climate Analytics Platform | Python, Docker Compose, and Kubernetes source/configuration templates | Public source edition; CSV data and runtime configuration excluded |
-| Speech Command Recognition | Canonical Python source and reproducible configuration | Public source edition; audio, models, features, and results excluded |
-| Image-to-Prompt Experiments | Final-round Python experiment suite | Public source edition; images, outputs, notebooks, and model caches excluded |
-| Homomorphic Salary Analysis | TenSEAL Python source and safe run instructions | Public source edition; salary data and all cryptographic artifacts excluded |
-| openFrameworks City Scene | C++ source and Visual Studio project structure | Public source edition; framework, textures, executables, and IDE settings excluded |
-| RaceCrewAI / RaceEngineerAI | High-level architecture and privacy-boundary case study | Public documentation-only edition; application code, telemetry, thesis material, and configuration excluded |
+| [Loan Processing Platform](https://github.com/G4brielPinto/loan-processing-platform) | Sanitised Django, React, AWS Lambda, and Step Functions source | Public source edition; data, credentials, database, and generated files excluded |
+| [Climate Analytics Platform](https://github.com/G4brielPinto/climate-analytics-platform) | Python, Docker Compose, and Kubernetes source/configuration templates | Public source edition; CSV data and runtime configuration excluded |
+| [Speech Command Recognition](https://github.com/G4brielPinto/speech-command-recognition) | Canonical Python source and reproducible configuration | Public source edition; audio, models, features, and results excluded |
+| [Image-to-Prompt Experiments](https://github.com/G4brielPinto/image-prompt-inversion-experiments) | Final-round Python experiment suite | Public source edition; images, outputs, notebooks, and model caches excluded |
+| [Homomorphic Salary Analysis](https://github.com/G4brielPinto/homomorphic-salary-analysis) | TenSEAL Python source and safe run instructions | Public source edition; salary data and all cryptographic artifacts excluded |
+| [openFrameworks City Scene](https://github.com/G4brielPinto/openframeworks-city-scene) | C++ source and Visual Studio project structure | Public source edition; framework, textures, executables, and IDE settings excluded |
+| [RaceCrewAI / RaceEngineerAI](https://github.com/G4brielPinto/racecrewai-case-study) | High-level architecture and privacy-boundary case study | Public documentation-only edition; application code, telemetry, thesis material, and configuration excluded |
 
 ## Explicit publication blocks
 
