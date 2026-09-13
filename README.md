@@ -4,10 +4,11 @@ This private repository is the control point for a safe academic-project portfol
 has been prepared, what is deliberately documentation-only and what must not be published until a
 specific safety condition is met.
 
-All repositories listed here are private. Nothing is made public from this registry without an
-explicit final review.
+Every GitHub repository listed here is private. Entries marked **Prepared locally** are clean,
+fresh-history copies that have not yet been created on GitHub. Nothing is made public from this
+registry without an explicit final review.
 
-## Prepared repositories
+## Private GitHub repositories, ready for review
 
 | Project | Repository | Material included | Status |
 | --- | --- | --- | --- |
@@ -21,24 +22,31 @@ explicit final review.
 | BTLNews | [repository](https://github.com/G4brielPinto/btlnews-case-study) | Safe high-level case study only | Private, implementation remains private |
 | Global Conflict Analytics | [repository](https://github.com/G4brielPinto/global-conflict-analytics-case-study) | Safe high-level BI case study only | Private, PBIX excluded |
 | Pacman-Inspired Game AI | [repository](https://github.com/G4brielPinto/pacman-ai-case-study) | Safe high-level case study only | Private, Unity package excluded |
+| Googol Distributed Search | [repository](https://github.com/G4brielPinto/googol-distributed-search) | Sanitised Java source and configuration template | Private, ready for review |
 
-## Projects queued for a dedicated cleaning pass
+## Prepared locally; awaiting private GitHub creation
 
-| Project | Why it is not yet staged | Next safe action |
+| Project | Material included | Status |
 | --- | --- | --- |
-| Speech-command analysis | Several overlapping scripts, audio data, trained models and personal local paths | Select the canonical final version, move paths to configuration and exclude audio/models |
-| Climate Analytics Platform | Raw data, environment configuration and documentation need alignment with the runnable stack | Create a fresh code-only copy after a complete environment and data audit |
-| Image-to-Prompt experiments | Large archive with multiple intermediate rounds and platform metadata | Select the final implementation and create a concise reproducible source edition |
-| Homomorphic-encryption exercise | Local paths and a large serialised cryptographic context | Publish code only after removing the context and documenting how to regenerate it |
-| C++ city graphics exercise | Build outputs and possibly third-party assets are mixed with source | Extract a clean source-and-build-instructions edition |
-| RaceEngineerAI | Application code is deliberately outside the portfolio scope | Prepare a high-level case study only, after a separate content review |
+| Loan Processing Platform | Sanitised Django, React, AWS Lambda, and Step Functions source | Prepared locally; data, credentials, database, and generated files excluded |
+| Climate Analytics Platform | Python, Docker Compose, and Kubernetes source/configuration templates | Prepared locally; CSV data and runtime configuration excluded |
+| Speech Command Recognition | Canonical Python source and reproducible configuration | Prepared locally; audio, models, features, and results excluded |
+| Image-to-Prompt Experiments | Final-round Python experiment suite | Prepared locally; images, outputs, notebooks, and model caches excluded |
+| Homomorphic Salary Analysis | TenSEAL Python source and safe run instructions | Prepared locally; salary data and all cryptographic artifacts excluded |
+| openFrameworks City Scene | C++ source and Visual Studio project structure | Prepared locally; framework, textures, executables, and IDE settings excluded |
+
+## Still documentation-only
+
+| Project | Reason | Next safe action |
+| --- | --- | --- |
+| RaceEngineerAI | Application code is deliberately outside the portfolio scope | Prepare a high-level case study only after a separate content review |
 
 ## Explicit publication blocks
 
 | Project | Blocking condition | Required action before any repository copy |
 | --- | --- | --- |
-| Googol distributed search engine | A Google/Gemini API key is present in the source and historical material | Revoke or rotate the key, then create a fresh history-free copy with environment-variable configuration |
-| Loan Processing application | AWS credentials were found in a local configuration file | Revoke or rotate the credentials, remove them from the source copy and create a fresh history-free repository |
+| Googol distributed search engine | Historic local material contained a provider key | The private GitHub edition has a fresh history and environment-variable configuration; rotate the original key if it could still be active |
+| Loan Processing application | Historic local material contained cloud and application credentials | The prepared edition has a fresh history and environment-variable configuration; rotate the original credentials if they could still be active before reusing the original environment |
 
 ## Portfolio safety rules
 
@@ -55,7 +63,8 @@ Every prepared repository follows these rules:
 
 ## Recommended next phase
 
-1. Review the prepared private repositories for technical accuracy and presentation.
-2. Decide which two or three code repositories best represent the portfolio publicly.
-3. Perform a public-release review on only those chosen repositories.
-4. Prepare an account-profile README only after the public selection is approved.
+1. Create the six locally prepared repositories as private when GitHub account access is available again.
+2. Review all private repositories for technical accuracy and presentation.
+3. Decide which two or three code repositories best represent the portfolio publicly.
+4. Perform a public-release review on only those chosen repositories.
+5. Prepare an account-profile README only after the public selection is approved.
