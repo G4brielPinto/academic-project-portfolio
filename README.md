@@ -34,12 +34,7 @@ registry without an explicit final review.
 | Image-to-Prompt Experiments | Final-round Python experiment suite | Prepared locally; images, outputs, notebooks, and model caches excluded |
 | Homomorphic Salary Analysis | TenSEAL Python source and safe run instructions | Prepared locally; salary data and all cryptographic artifacts excluded |
 | openFrameworks City Scene | C++ source and Visual Studio project structure | Prepared locally; framework, textures, executables, and IDE settings excluded |
-
-## Still documentation-only
-
-| Project | Reason | Next safe action |
-| --- | --- | --- |
-| RaceEngineerAI | Application code is deliberately outside the portfolio scope | Prepare a high-level case study only after a separate content review |
+| RaceCrewAI / RaceEngineerAI | High-level architecture and privacy-boundary case study | Prepared locally; application code, telemetry, thesis material, and configuration excluded |
 
 ## Explicit publication blocks
 
@@ -63,7 +58,7 @@ Every prepared repository follows these rules:
 
 ## Recommended next phase
 
-1. Create the six locally prepared repositories as private when GitHub account access is available again.
+1. Create the seven locally prepared repositories as private when GitHub account access is available again.
 2. Review all private repositories for technical accuracy and presentation.
 3. Decide which two or three code repositories best represent the portfolio publicly.
 4. Perform a public-release review on only those chosen repositories.
